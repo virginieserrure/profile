@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+body {
+  background-color: azure;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+p {
+  font-family: 'Lora';
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+h1 {
+  color: 001D6E;
+  font-family: 'Roboto Slab';
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  color: 4B7BE5;
+  font-family: 'Roboto Slab';
+  font-size: 24px;
+  text-align: center;
+}
+
+h3 {
+  color: 4B7BE5;
+  font-family: 'Roboto Slab';
+  font-size: 18px;
+}
+
+.img-circle {
+  width: 16%;
+  border-radius: 50%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.btn-blue {
+  background-color: white;
+  color: 9ADCFF;
+  padding: 15px 20px;
+  border: 2px solid;
+  border-color: 9ADCFF;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: 9ADCFF;
+  font-family: 'Gill Sans MT';
+}
+
+a:hover {
+  color: 33C83;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 5%);
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  width: 60%;
+  margin: 25 auto;
+  box-shadow: 0px 0px 30px rgba(28, 3, 118, 0.2);
+  text-align: center;
+  padding: 30;
+  border: 2px solid;
+  border-color: 33C83;
+}
+
+.buttom {
+  color: C7FB5FF;
+  font-size: 35px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+#img-background {
+  background-image: url('images/fond-geometrique-bleu_1409-961.webp');
+  background-size: cover;
+}
+
+.icon-size {
+  width: 50px;
+}
